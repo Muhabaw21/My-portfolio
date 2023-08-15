@@ -26,7 +26,7 @@ const Portfolio = () => {
       
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG10} alt="" />
+            <img className = "portfolio-img" src={IMG10} alt="" />
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
@@ -37,7 +37,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG11} alt="" />
+            <img className = "portfolio-img" src={IMG11} alt="" />
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
@@ -48,7 +48,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG9} alt="" />
+            <img className = "portfolio-img" src={IMG9} alt="" />
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
@@ -60,7 +60,7 @@ const Portfolio = () => {
        
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG9} alt="" />
+            <img className = "portfolio-img" src={IMG9} alt="" />
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
@@ -71,7 +71,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG2} alt="" />
+            <img className = "portfolio-img" src={IMG2} alt="" />
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
@@ -82,7 +82,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG1} alt="" />
+            <img className = "portfolio-img" src={IMG1} alt="" />
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
@@ -93,7 +93,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG13} alt="" />
+            <img className = "portfolio-img" src={IMG13} alt="" />
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
@@ -104,7 +104,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG14} alt="" />
+            <img className = "portfolio-img" src={IMG14} alt="" />
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
@@ -115,7 +115,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG3} alt="" />
+            <img className = "portfolio-img" src={IMG3} alt="" />
           </div>
             <h3>Get Lit</h3>
            <div className="portfolio__item-cta">
@@ -126,7 +126,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG4} alt="" />
+            <img className = "portfolio-img" src={IMG4} alt="" />
           </div>
             <h3> From Electricity device delivery app</h3>
            <div className="portfolio__item-cta">
@@ -137,7 +137,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG15} alt="" />
+            <img className = "portfolio-img" src={IMG15} alt="" />
           </div>
             <h3>From Electricity device delivery app</h3>
            <div className="portfolio__item-cta">
@@ -148,7 +148,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG16} alt="" />
+            <img className = "portfolio-img" src={IMG16} alt="" />
           </div>
             <h3>From Electricity device delivery app</h3>
            <div className="portfolio__item-cta">
@@ -159,7 +159,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG5} alt="" />
+            <img className = "portfolio-img" src={IMG5} alt="" />
           </div>
             <h3>From Get lit app</h3>
            <div className="portfolio__item-cta">
@@ -170,7 +170,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG7} alt="" />
+            <img className = "portfolio-img" src={IMG7} alt="" />
           </div>
             <h3>From Get lit app</h3>
            <div className="portfolio__item-cta">
@@ -181,7 +181,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG8} alt="" />
+            <img className = "portfolio-img" src={IMG8} alt="" />
           </div>
             <h3>From Get Lit App</h3>
            <div className="portfolio__item-cta">

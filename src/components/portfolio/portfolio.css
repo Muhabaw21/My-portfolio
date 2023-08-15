@@ -20,8 +20,8 @@
     overflow: hidden;
 
 }
-img{
-    height: 400px !important;
+.portfolio-img{
+    height: 400px;
 }
 
 .portfolio__item h3{
