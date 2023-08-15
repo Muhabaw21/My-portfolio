@@ -30,7 +30,7 @@ const Portfolio = () => {
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="httphttps://github.com/Muhabaw21/cargo_app" className='btn'>Github</a>
            
            </div>
          
@@ -41,7 +41,7 @@ const Portfolio = () => {
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/cargo_app" className='btn'>Github</a>
            
            </div>
          
@@ -52,7 +52,7 @@ const Portfolio = () => {
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://gihttps://github.com/Muhabaw21/Vehicle-Management" className='btn'>Github</a>
            
            </div>
          
@@ -64,7 +64,7 @@ const Portfolio = () => {
           </div>
             <h3>From Cargo App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/cargo_app" className='btn'>Github</a>
            
            </div>
          
@@ -75,7 +75,7 @@ const Portfolio = () => {
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Vehicle-Management" className='btn'>Github</a>
            
            </div>
          
@@ -86,7 +86,7 @@ const Portfolio = () => {
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Vehicle-Management" className='btn'>Github</a>
            
            </div>
          
@@ -97,7 +97,7 @@ const Portfolio = () => {
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Vehicle-Management" className='btn'>Github</a>
            
            </div>
          
@@ -108,7 +108,7 @@ const Portfolio = () => {
           </div>
             <h3>From Vehicle App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Vehicle-Management" className='btn'>Github</a>
            
            </div>
          
@@ -119,10 +119,10 @@ const Portfolio = () => {
           </div>
             <h3>Get Lit</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Vehicle-Management" className='btn'>Github</a>
            
            </div>
-         
+
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
@@ -163,7 +163,7 @@ const Portfolio = () => {
           </div>
             <h3>From Get lit app</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Git-Let" className='btn'>Github</a>
            
            </div>
          
@@ -174,7 +174,7 @@ const Portfolio = () => {
           </div>
             <h3>From Get lit app</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Git-Let" className='btn'>Github</a>
            
            </div>
          
@@ -185,7 +185,7 @@ const Portfolio = () => {
           </div>
             <h3>From Get Lit App</h3>
            <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21" className='btn'>Github</a>
+           <a href="https://github.com/Muhabaw21/Git-Let" className='btn'>Github</a>
            
            </div>
          
