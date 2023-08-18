@@ -3,9 +3,63 @@ import './contact.css'
 import {MdOutlineMail} from 'react-icons/md'
 import {SiMessenger} from 'react-icons/si'
 import {BsWhatsapp} from 'react-icons/bs'
-
+import { useState } from 'react';
+import Swal from 'sweetalert2'
+import swal from 'sweetalert'
 const Contact = () => {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    let item =    {name, email, message};
+              const options = {
+                method:"POST",
+                headers:{"content-type": "application/json", Accept: "application/json"},
+                body: JSON.stringify(item)
+              };
+    const url = "http://localhost:8080/send-email";
+    try {
+      const response = await fetch(url, options);
+      console.log(response);
+      if(response.ok){
+       console.log("Login successful");
+       swal("Successful", "Email sent successfully", "success", { buttons: false, timer: 2000, })    
+} else {
+   Swal.fire({
+       title: "Failed To Send Email?",
+       text: `Please check again fields! `,
+       icon: 'error',
+       showConfirmButton: false,
+       showCancelButton: true,
+       cancelButtonColor: '#d33',
+       showClass: {
+           popup: 'animate__animated animate__shakeX'
+       },
+   })
+       
+      }
+       
+   } catch (error) {
+     console.log(error + "error");
+     Swal.fire({
+         title: "Something Went Wrong?",
+         text: `net::ERR_INTERNET_DISCONNECTED `,
+         icon: "warning",
+         dangerMode: true, 
+         showConfirmButton: false,
+         showCancelButton: true,
+         cancelButtonColor: '#d33',
+         showClass: {
+             popup: 'animate__animated animate__shakeX'
+         },
+     })
+   }
+  }
   return (
+  
     <section id = 'contact'>
     <h5>Get In Toch</h5>
     <h2>Contact Me</h2>
@@ -34,13 +88,23 @@ const Contact = () => {
 
          </div>
            {/* End Of Contact Option */}
-           <form action="">
-            <input type="text" name ='name' placeholder='Your Full Name ' required />
-            <input type="text" name ='email' placeholder='Your Email ' required />
-             <textarea name="message" id="" cols="30" rows="10" placeholder='Your Message' required></textarea>
-             <button type='submit'className='btn btn-primary'>Send Message</button>
-           </form>
-      
+           <form onSubmit={handleSubmit}>
+           <label>
+          Full Name:
+          <input type="text" name="name" value={name} onChange={(event) => setName(event.target.value)} required />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+        </label>
+        <label>
+          Message:
+          <textarea name="message"  cols="30" rows="10"  value={message} onChange={(event) => setMessage(event.target.value)} required></textarea>
+        </label>
+        <button type="submit" className="btn btn-primary">Send Message</button>
+         
+        </form>
+    
     </div>
     </section>
   )
