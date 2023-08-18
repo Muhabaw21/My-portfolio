@@ -7,7 +7,13 @@ require('dotenv').config(); // Load environment variables from .env file
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors(
+  {
+  origin:["https://"],
+  methods:["POST", "GET"],
+  credentials: true
+  }
+  ))
 // POST route to handle email submission
 app.post('/send-email', (req, res) => {
   // Get the name, email, and message from the request body
@@ -44,5 +50,5 @@ app.post('/send-email', (req, res) => {
 
 // Start the server
 app.listen(8080, () => {
-  console.log('Server started on port 3000');
+  console.log('Server started on port 8080');
 });
