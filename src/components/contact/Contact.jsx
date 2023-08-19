@@ -20,12 +20,12 @@ const Contact = () => {
                 headers:{"content-type": "application/json", Accept: "application/json"},
                 body: JSON.stringify(item)
               };
-    const url = "http://localhost:8080/send-email";
+    const url = "https://express-deploy-gamma.vercel.app/send-email";
     try {
       const response = await fetch(url, options);
       console.log(response);
       if(response.ok){
-       console.log("Login successful");
+       console.log("sent successful");
        swal("Successful", "Email sent successfully", "success", { buttons: false, timer: 2000, })    
 } else {
    Swal.fire({
