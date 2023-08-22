@@ -113,17 +113,7 @@ const Portfolio = () => {
            </div>
          
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio_item-image">
-            <img className = "portfolio-img" src={IMG3} alt="" />
-          </div>
-            <h3>Get Lit</h3>
-           <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21/Vehicle-Management" className='btn'>Github</a>
-           
-           </div>
 
-        </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
             <img className = "portfolio-img" src={IMG4} alt="" />
@@ -157,40 +147,6 @@ const Portfolio = () => {
            </div>
          
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio_item-image">
-            <img className = "portfolio-img" src={IMG5} alt="" />
-          </div>
-            <h3>From Get lit app</h3>
-           <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21/Git-Let" className='btn'>Github</a>
-           
-           </div>
-         
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio_item-image">
-            <img className = "portfolio-img" src={IMG7} alt="" />
-          </div>
-            <h3>From Get lit app</h3>
-           <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21/Git-Let" className='btn'>Github</a>
-           
-           </div>
-         
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio_item-image">
-            <img className = "portfolio-img" src={IMG8} alt="" />
-          </div>
-            <h3>From Get Lit App</h3>
-           <div className="portfolio__item-cta">
-           <a href="https://github.com/Muhabaw21/Git-Let" className='btn'>Github</a>
-           
-           </div>
-         
-        </article>
-        
        
       </div>
     </section>
