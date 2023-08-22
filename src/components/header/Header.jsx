@@ -10,7 +10,7 @@ const Header = () => {
       <h5>Hello I'm</h5>
       <h1>Alemayehu Muhabaw</h1>
       <h5 className="text-light">
-        Full Stack Mobile App Developer
+        Full-Stack Software Engineer | Backend (Express.js and Spring Boot) | Frontend (React.js) | Mobile App (Dart and Flutter) Developer
       </h5>
       <CTA/>
       <HeaderSocial/>
