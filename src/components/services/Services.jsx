@@ -45,10 +45,7 @@ const Services = () => {
            <p>Electricity Delivery app
            </p>
           </li>
-          <li> <BiCheck className='service__list-icon'/>
-           <p>Git Lit
-           </p>
-          </li>
+      
          
           
         </ul>
